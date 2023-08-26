@@ -48,14 +48,7 @@ function Mentors() {
             </Text>
           </HStack>
 
-          <motion.div
-            whileInView={animations.whileInView}
-            initial={animations.four}
-            transition={{
-              duration: 1,
-              ease: "easeInOut",
-            }}
-          >
+          <motion.div>
             <SimpleGrid
               templateRows={{
                 lg: "repeat(3, 1fr)",
